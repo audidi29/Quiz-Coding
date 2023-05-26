@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First JS Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="parent_container">
+    <button id="start_button" class="start_button">Start The Quiz!</button>
+    <div id="quiz_container">
+        Quiz is started! 
+    </div>
+    <script src="./assets/script.js"></script> 
+    
+    <div class="info_box">
+       <div class="info-title"><span>Coding Quiz Challenge</span></div>
+       <div class="info-subtitle">
+         <div class="info">Try to answer the following code-related questions within the time limit.</div>
+         <div class="info">Keep in mind that incorrect answers will penalize your score/time by ten seconds!</div>
+    </div>
+      <div class="buttons">
+        <button class="quit">Submit</button>
+        <button class="restart">Go back</button>
+      </div>
+
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">View High Scores</div>
+            <div class="time_left">Time</div>
+            <div class="timer_sec">10</div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="questions"></div>
+            <div class="option_list"></div>
+            <div class="final_score"></div>
+            <div class="initials"></div>
+        </section>
+    </div>
+  </div>
+</body>
+</html>
